@@ -1,13 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import '../../App.css'
-import Carousel from '../Carousel/Carousel'
-import OurServices from '../OurServives/OurServices'
-import AboutUs from '../AboutUs/AboutUs'
-import Packages from '../Packages/Packages'
-import HomeOffer from '../HomeOffer/HomeOffer'
-import Footer from '../Footer/Footer'
+import Carousel from '../Home-C/Carousel/Carousel'
+import OurServices from '../Home-C/OurServives/OurServices'
+import AboutUs from '../Home-C/AboutUs/AboutUs'
+import Packages from '../Home-C/Packages/Packages'
+import HomeOffer from '../Home-C/HomeOffer/HomeOffer'
+
 
 export default function Home() {
+    // 返回顶部
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div>
             <Carousel/>
@@ -15,7 +19,6 @@ export default function Home() {
             <AboutUs/>
             <Packages/>
             <HomeOffer/>
-            <Footer/>
         </div>
     )
 }

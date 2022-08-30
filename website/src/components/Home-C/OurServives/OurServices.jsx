@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import './OurServices.css'
 
 export default function OurServices() {
-  const [data,] = useState([
+  const [data] = useState([
     {id:'1',img:'/images/icon-1.png',title:'adventure'},
     {id:'2',img:'/images/icon-2.png',title:'tour guide'},
     {id:'3',img:'/images/icon-3.png',title:'trekking'},

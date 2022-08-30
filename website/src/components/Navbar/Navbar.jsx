@@ -16,8 +16,8 @@ export default function Navbar() {
                 <nav className={click ? 'navbar active' : 'navbar'} onClick={closeMenu}>
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/Product">Product</NavLink>
-                <NavLink to="/Servicers">About Us</NavLink>
-                <NavLink to="/SignUp">Book</NavLink>
+                <NavLink to="/About">About Us</NavLink>
+                <NavLink to="/Book">Book</NavLink>
                 </nav>
                 <div id="menu-btn" className={click ? 'fas fa-times': 'fas fa-bars'} onClick={handleClick}></div>
             </section>

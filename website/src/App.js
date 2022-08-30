@@ -4,19 +4,21 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar'
 import Home from './components/pages/Home';
 import Product from './components/pages/Product';
-import Servicers from './components/pages/Servicers';
-import SignUp from './components/pages/SignUp';
-
+import About from './components/pages/About';
+import Book from './components/pages/Book';
+import Footer from './components/Footer/Footer';
 export default function App() {
+
   return (
     <Fragment>
       <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/Servicers" element={<Servicers/>}/>
+          <Route path="/About" element={<About/>}/>
 					<Route path="/Product" element={<Product/>}/>
-					<Route path="/SignUp" element={<SignUp/>}/>
+					<Route path="/Book" element={<Book/>}/>
         </Routes>
+      <Footer/>
     </Fragment>
   )
 }
