@@ -8,7 +8,7 @@ export default function HomeOffer() {
             <div className="content">
                 <h3>upto 50% off</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure tempora assumenda, debitis aliquid nesciunt maiores quas! Magni cumque quaerat saepe!</p>
-                <Link to='/SignUp' className="btn">book now</Link>
+                <Link to='/Book' className="btn">book now</Link>
             </div>
         </section>
     )

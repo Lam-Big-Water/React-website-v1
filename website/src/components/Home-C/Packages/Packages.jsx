@@ -23,7 +23,7 @@ export default function Packages() {
                                         <div className="content">
                                             <h3>{item.title}</h3>
                                             <p>{item.content}</p>
-                                            <Link to='/SignUp' className="btn">book now</Link>
+                                            <Link to='/Book' className="btn">book now</Link>
                                         </div>
                                     </div>
                                 )
