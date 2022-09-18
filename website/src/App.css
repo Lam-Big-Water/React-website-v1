@@ -22,7 +22,7 @@
     text-transform: capitalize;
   }
 
-   body {
+    body {
     width: 100%;
     background: white;
   }
@@ -30,6 +30,7 @@
   html{
     font-size: 62.5%;
     overflow-x: hidden;
+    background: white;
   }
 
   html::-webkit-scrollbar{
