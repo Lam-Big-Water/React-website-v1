@@ -155,4 +155,28 @@
   }
 }
 
+@media (max-width:450px){
+
+  html{
+    font-size: 50%;
+  }
+
+  .heading-title{
+    font-size: 3.5rem;
+  }
+
+}
+
+
+.header-img {
+  background: url(../public/images/header-bg-2.png);
+}
+
+.header-img2 {
+  background: url(../public/images/header-bg-1.png);
+}
+
+.header-img3 {
+  background: url(../public/images/header-bg-3.png);
+}
 
