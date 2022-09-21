@@ -1,4 +1,4 @@
-import React, {useState,Fragment} from 'react';
+import React, {useState} from 'react';
 import {NavLink} from 'react-router-dom';
 import './Navbar.css';
 
@@ -10,7 +10,6 @@ export default function Navbar() {
     const closeMenu = () => setClick(false);
     
     return (
-        <Fragment>
             <section className='header'>
                 <NavLink className='navbar-logo'to="/" onClick={closeMenu}>Travel.</NavLink>
                 <nav className={click ? 'navbar active' : 'navbar'} onClick={closeMenu}>
@@ -21,6 +20,5 @@ export default function Navbar() {
                 </nav>
                 <div id="menu-btn" className={click ? 'fas fa-times': 'fas fa-bars'} onClick={handleClick}></div>
             </section>
-        </Fragment>
     )
 }
