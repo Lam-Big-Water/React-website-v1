@@ -9,7 +9,7 @@ Travel website
 
 二.技術棧
 
-React Hooks
+React18
 
 React Router6
 
